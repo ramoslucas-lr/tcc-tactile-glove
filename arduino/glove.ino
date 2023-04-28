@@ -93,13 +93,11 @@ void loop() {
 
     else if (message == "stop\n") {
       stopSimulation();
-      start_time = millis(); 
       simulating = false;
     }
 
     else if (message == "bye\n") {
       stopSimulation();
-      start_time = millis(); 
       simulating = false;
       connected = false;
     }
